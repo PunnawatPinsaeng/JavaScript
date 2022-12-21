@@ -1,5 +1,5 @@
 
-// Concatenation with template literals
+//! Concatenation with template literals
 console.log("\n********Concatenation with template literals********\n");
 
 let str1 = "JavaScript";
@@ -8,7 +8,7 @@ let str2 = "fun";
 console.log(`I am writting code in ${str1}`);
 console.log(`Formatting in ${str1} is ${str2};`);
 
-// Expressions in template literals
+//! Expressions in template literals
 console.log("\n********Expresstions in template literals********\n");
 
 let bool1 = true;
