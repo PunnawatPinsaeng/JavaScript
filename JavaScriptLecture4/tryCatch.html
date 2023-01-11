@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Try Catch </title>
+</head>
+<body>
+
+    <h2> My First Web Page </h2>
+    <p> My First Paragraph. </p>
+
+    <p id="demo"'></p>
+
+    <script>
+
+        try {
+
+            lalala; // * Error, variable is not defined!
+        }
+        catch (err) {
+
+            alert(err.name); // * ReferenceError
+            alert(err.message); // * lalala is not defined
+            alert(err.stack);
+            // * ReferenceError : lalala not define at (...cal stack)
+
+            // * Can also show an error as a whole
+            // * The error is converted to String as "name: message"
+            alert(err); // * ReferenceError : lalala is not defined
+        }
+
+    </script>
+
+</body>
+</html>
